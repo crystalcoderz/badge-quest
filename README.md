@@ -50,6 +50,23 @@ Issue #1 tracks them. And yes — issue #1 gets closed within 5 minutes of openi
 
 Both PRs in this repo (#2, #3) follow exactly this recipe.
 
+## 🦈 Pull Shark — merged PRs you authored
+
+**Requirement:** pull requests you authored that get merged. Tiers: **2** (base) → **16** (bronze) → **128** (silver) → **1,024** (gold).
+
+Rules that actually matter (community-verified):
+- **Your own repos count** — the "only other people's repos" claim is folklore; badge histories have cited people's own-repo PRs.
+- PRs must land in the **default branch** of a **non-fork** repo, and must change real files — zero-file no-op PRs don't count.
+- **Private repos count too** if "Include private contributions" is enabled — most guides get this wrong.
+- No grinding: one user script-merged ~900 PRs in two days and got nothing. Bulk/staged patterns get silently filtered.
+
+**Recipe (base tier, ~10 minutes, solo):**
+1. Branch off `main` with a real change.
+2. Open a PR, merge it. Repeat once more.
+3. This repo's PR #2 and #3 = exactly two merged PRs. Base tier complete.
+
+Beyond base tier: make real upstream PRs — typo fixes, docs, `good first issue`s. Bronze in days-to-weeks; silver in months of genuine contribution.
+
 ## Sources worth reading
 
 - [GitHub's achievements announcement](https://github.blog/news-insights/product-news/introducing-achievements-recognizing-the-many-stages-of-a-developers-coding-journey/) (they famously won't publish criteria: *"Great question, we'll never tell 🤫"*)
